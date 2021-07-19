@@ -4,7 +4,6 @@ from genpy import message
 import rospy
 from sensor_msgs.msg import LaserScan
 from lidar_final.msg import lidar_final_msgs
-from time import sleep
 import math
 
 min_mesafe = 2
